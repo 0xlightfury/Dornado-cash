@@ -14,7 +14,7 @@
     "update:events": "node -r esm scripts/updateEvents.js --network",
     "update:encrypted": "node -r esm scripts/updateEncryptedEvents.js --network",
     "update:tree": "node -r esm scripts/updateTree.js --network",
-    "generate": "nuxt generate && cp dist/404.html dist/ipfs-404.html",
+    "generate": "nuxt generate",
     "ipfsUpload": "node scripts/ipfsUpload.js",
     "deploy:ipfs": "yarn generate && yarn ipfsUpload"
   },
